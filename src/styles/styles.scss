@@ -1,0 +1,21 @@
+@import
+'base',
+'~minx/src/reset',
+'~minx/src/elements',
+'grid';
+
+
+[hidden] {
+  display: none !important;
+}
+
+::selection {
+  background: rgba(200,200,255,.1);
+}
+
+body{background:#eee;position: absolute;height:100%;width: 100%}
+.active{color: #fff;background: #005256;padding: 5px 10px;border-radius: 3px;}
+input{color:#000 !important}
+header{background: #005256;
+  color: #fff;}
+  
